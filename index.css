@@ -1,0 +1,82 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-image: url('images/Background/bgtengah.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 95%;
+	font-family:Helvetica;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+/*Navbar*/
+.navbar {
+	background-color: rgb(0, 0, 0);
+	opacity: 70%;
+	margin-top: -32px;
+}
+
+.navbar .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+	color: orange;
+}
+
+.navbar .navbar-brand  {
+	font-size: 30px;
+}
+/*Akhir Navbar*/
+
+/*Jumbotron*/
+.jumbotron {
+	background-image: url(images/banner.jpg);
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+	color: white;
+}
+
+.jumbotron .display-4 {
+	margin-top: 30px;
+}
+
+.jumbotron p {
+	font-size: 23px;
+}
+
+.jumbotron hr {
+	border-color: white;
+	width: 400px;
+	border-width: 3px;
+}
+/*Akhir Jumbotron*/
+
+/*Footer*/
+.footer {
+	background-color: rgb(39, 39, 39);
+	opacity: 70%;
+	margin-top: 100px;
+
+}
+
+.footer-body {
+    padding-bottom: 20px;
+	padding-top: 10px;
+}
+/*Akhir Footer*/
+
+/*Home*/
+.judul {
+	margin-bottom: 120px;
+}
+
+.card-img:hover {
+	box-shadow: 2px 2px 10px rgb(255, 255, 255);	
+}
+
+/*Akhir Home*/
